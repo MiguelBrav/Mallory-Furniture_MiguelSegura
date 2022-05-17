@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    padding: 0;
+    background:white;
+    text-align: center;
+  }
+   
+
+  .nav ul {
+    width: 100%;
+
+  
+    list-style: none;
+    background-color: black;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    margin-right: -4px;
+
+  }
+
+  .nav  li  {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: 15px;
+    margin-right: -4px;
+   
+  }
+
+  .nav .terms, .nav .misc {
+      
+    border-right: 1px solid #9B9A9A;
+    
+ 
+
+ }
+  .nav .tables a, .nav .seating a,.nav .desk a, .nav .bedrooms a, .nav .misc a{
+      color: aquamarine;
+  }
+
+
+
+  .nav .banner {
+      
+      margin-right: -4px;
+      margin: 0;
+      padding: 0;
+ 
+      color: white;
+  }
+
+
+  
+  .nav a {
+      
+  
+    font-family: 'Arial';
+    font-size: 1ch;
+    text-decoration: none;
+
+    color:white;
+    display: block;
+    transition: .3s background-color;
+  }
+
+  
+  .nav a:hover {
+
+    padding: 0;
+    margin: 0;
+    background-color: yellow;
+  }
+
+
+  @media screen and (min-width: 600px) {
+    .nav li {
+      width: 120px;
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      font-size: 1.4em;
+    }
+   
+ 
+    .nav li {
+        
+     padding: 0;
+     margin: 0;
+      display: inline-block;
+      margin-right: -15px;
+ 
+    }
+    
+   
+ 
+  }
+
+
+  .imagenfurniture{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.centrado{
+    font-size: xx-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+}
+.yourfuture{
+    font-size: small;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+}
+
+.Subtheme{
+   text-align: left;
+   padding-left: 20%;
+}
+.Subtheme .subthemetext{
+    color: grey;
+}
+
+.Placeholder {
+    width: 18%;
+    margin-left: 40px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 10px #999;
+    border: 10px solid white;
+    border-bottom: 40px solid white;
+    border-radius: 3%;
+
+    
+}
+.imagen1texto{
+    font-size: xx-large;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+.bannerfurniture{
+    margin-top: 1%;
+    width: 100%;
+
+
+
+}
+
+.botonall{
+    font-size: 80%;
+    font-weight: bold;
+    width: 10%;
+    background-color: white;
+    color: red;
+    border-color: red;
+    padding: 1%;
+
+
+}
+
+.btn-cat{
+    font-size: 80%;
+    font-weight: bold;
+    width: 10%;
+    background-color: white;
+    color: deepskyblue;
+    border-color: deepskyblue;
+    padding: 1%;
+    margin-left: 2%;
+    margin-top: 2%;
+
+
+}
+.logo-fin{
+    width: 5%;
+}
+
+.companyfooter{
+    font-weight: bold;
+    color: red;
+    padding-left: 30%;
+    float: left;
+    width: 20%;
+}
+.companyfooter a{
+
+  color: black;
+  text-decoration: none;
+  
+}
+.categoryfooter{
+    font-weight: bold;
+    color: red;
+    
+    float: left;
+    width: 20%;
+}
+.categoryfooter a{
+
+    color: black;
+    text-decoration: none;
+    
+  }
+
+.socialfooter{
+    font-weight: bold;
+    color: red;
+    
+    float: left;
+    width: 20%;
+}
+
+.sociallogofooter{
+    width: 7%;
+}
